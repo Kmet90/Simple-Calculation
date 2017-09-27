@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square-Area", "Square-Area\Square-Area.csproj", "{CE96BD5E-255A-4E43-A5CB-D8F6CC152C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inches-to-Centimeters", "Inches-to-Centimeters\Inches-to-Centimeters.csproj", "{03D8FA3D-CAA5-4FB9-83C1-677FF8CB4B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Greeting\Greeting.csproj", "{67863B18-1F61-46C5-BEE9-A5737BB84153}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE96BD5E-255A-4E43-A5CB-D8F6CC152C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE96BD5E-255A-4E43-A5CB-D8F6CC152C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE96BD5E-255A-4E43-A5CB-D8F6CC152C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE96BD5E-255A-4E43-A5CB-D8F6CC152C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D8FA3D-CAA5-4FB9-83C1-677FF8CB4B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D8FA3D-CAA5-4FB9-83C1-677FF8CB4B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D8FA3D-CAA5-4FB9-83C1-677FF8CB4B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D8FA3D-CAA5-4FB9-83C1-677FF8CB4B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67863B18-1F61-46C5-BEE9-A5737BB84153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67863B18-1F61-46C5-BEE9-A5737BB84153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67863B18-1F61-46C5-BEE9-A5737BB84153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67863B18-1F61-46C5-BEE9-A5737BB84153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
